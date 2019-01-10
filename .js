@@ -5,7 +5,8 @@ function smallestCommons(arr) {
 
   // Create a new array and add all values from the sorted array in descending order 
   let newArr = [];
-  for (let i = arr[0]; i >= arr[1]; i--) {
+  for (let i = arr[0]; i >= arr[1]; i--) { // If not sorting the passed array, replace this line of code with   
+                                           // for (let i = Math.max(arr[0], arr[1]); i >= Math.min(arr[0], arr[1]); i--)
     newArr.push(i);
   }
   
