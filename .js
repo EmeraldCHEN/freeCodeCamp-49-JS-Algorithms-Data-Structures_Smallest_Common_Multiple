@@ -26,5 +26,11 @@ function smallestCommons(arr) {
 
   return quotient;
 }
-smallestCommons([1,6]); // 60
+smallestCommons([1,6]); // return 60
+smallestCommons([2, 10]); // return 2520
+
+
+
+
+// Retrieved from https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/smallest-common-multiple/
 
